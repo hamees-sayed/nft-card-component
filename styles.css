@@ -1,0 +1,154 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    box-sizing: border-box;
+    height: 539.5px;
+    width: 300.8px;
+    padding-right: 25.6px;
+    padding-left: 25.6px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 0px 30px black;
+    position: relative;
+    top: 50%;
+}
+
+.nft-image {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    top: 24px;
+    opacity: 0;
+    background: hsl(178, 100%, 50%, 0.5);;
+}
+
+.overlay img {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.overlay:hover {
+    opacity: 5;
+    transition: 0.099s ease 0s;
+    cursor: pointer;
+} 
+
+.header {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 22.4px;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+
+.header:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.creator {
+    color:white;
+}
+
+.creator:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.description {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    width: 301px;
+    height: 56.3px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    color: hsl(215, 51%, 70%);
+}
+
+.ethereum {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    color: hsl(178, 100%, 50%);
+}
+
+.ethereum-logo {
+    margin-right: 8px;
+    height: 18px;
+    width: 11px;
+}
+
+.time-left {
+    font-family: 'Outfit', sans-serif;
+    font-weight: thin;
+    font-size: 16px;
+    right: 0px;
+    padding-right: 25.6px;
+    position: absolute;
+    display: flex;
+    color: hsl(215, 51%, 70%);
+}
+
+.clock-logo {
+    margin-right: 8px;
+    height: 18px;
+    width: 18px;
+}
+
+.bottom-txt {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 22.4px;
+}
+
+.author {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 0;
+
+}
+
+.pfp {
+    height: 32px;
+    width: 32px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
